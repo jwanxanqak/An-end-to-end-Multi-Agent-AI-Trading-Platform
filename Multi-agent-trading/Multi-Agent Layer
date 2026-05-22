@@ -1,0 +1,5 @@
+## 📌 **Multi-Agent Layer**
+
+**Multi-Agent Layer (Intelligence Hub):
+
+** Deploys a **Gemini 2.5 Flash** Multi-agent using the modern `google-genai` SDK. Equipped with native Tool Calling (Function Calling), the Multi-agent autonomously determines when and how to generate optimized SQL queries against the DuckDB Silver Layer, analyzes short-term trends, and outputs deterministic financial decisions.
