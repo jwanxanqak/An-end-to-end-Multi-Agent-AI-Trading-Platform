@@ -25,7 +25,7 @@ To construct the decoupled application layer and bridge local network stacks out
 
 ## 5.2 Backend Service Infrastructure (`main.py`)
 
-The backend layer is architected via **FastAPI** to expose high-performance RESTful APIs. It implements strict data validation schemas using `pydantic` and acts as the execution layer for parsing, combining, and orchestrating downstream agent consensus policies.
+The backend layer is architected via **FastAPI** to expose high-performance RESTful APIs. It implements strict data validation schemas using `pydantic` and acts as the execution layer for parsing, combining, and orchestrating downstream agent consensus rules.
 
 ### Architectural Logic Highlights:
 * **Payload Sanitation & Parsing Engine:** Automatically extracts, formats, and sanitizes raw JSON block text (stripping markdown syntax wraps like ` ```json `) cached by previous execution cycles in the Google Drive Data Lake.
@@ -39,7 +39,7 @@ The presentation layer is developed in **Streamlit**, offering an analytical coc
 ### Module Configuration:
 1. **Dynamic Control Sidebar:** Includes a batch asset processing array containing 30 global and local stock market symbols (`AVAILABLE_ASSETS`). It features a global state macro checkbox (`Select all 30 assets`) that dynamically handles massive lookups without raising race conditions or execution bugs.
 2. **Multi-Agent Asset Monitor Tab:** Uses explicit state containers (`st.expander`) and clean async HTTP queries to visually contrast agent reasoning side-by-side using unified `st.metric` indicators and conditional rendering markers (`st.success`, `st.error`, `st.warning`).
-3. **Portfolio Monitoring & Risk Rules Tab:** Maps real-time data checkpoints, maximum drawdowns, and structural protection alerts managed down-stream via DuckDB.
+3. **Portfolio Monitoring & Portfolio Rules Tab:** Maps real-time data checkpoints, maximum drawdowns, and structural protection alerts managed down-stream via DuckDB.
 4. **Conversational Interactive Console Tab:** Simulates asynchronous agent-to-user chat interaction with stateful history maintenance preserved inside `st.session_state`.
 
 ## 5.4 Asynchronous Infrastructure Execution & Network Tunneling
