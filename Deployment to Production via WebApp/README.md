@@ -45,3 +45,5 @@ The presentation layer is developed in **Streamlit**, offering an analytical coc
 ## 5.4 Asynchronous Infrastructure Execution & Network Tunneling
 
 Because Google Colab operates within ephemeral, isolated virtual machines, running network daemons directly requires decoupling standard interactive shell blockades. We handle this via `nohup` (No Hang Up) sub-processes and expose internal ports via a reverse-proxy topology.
+
+<img width="1344" height="627" alt="image" src="https://github.com/user-attachments/assets/acda405b-7622-4328-bcf6-e9cb83bc9e73" />
