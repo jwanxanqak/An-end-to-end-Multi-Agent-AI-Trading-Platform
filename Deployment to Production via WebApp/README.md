@@ -47,3 +47,9 @@ The presentation layer is developed in **Streamlit**, offering an analytical coc
 Because Google Colab operates within ephemeral, isolated virtual machines, running network daemons directly requires decoupling standard interactive shell blockades. We handle this via `nohup` (No Hang Up) sub-processes and expose internal ports via a reverse-proxy topology.
 
 <img width="1344" height="627" alt="image" src="https://github.com/user-attachments/assets/acda405b-7622-4328-bcf6-e9cb83bc9e73" />
+
+<img width="1320" height="617" alt="image" src="https://github.com/user-attachments/assets/2c111fae-3de7-41ad-b551-20e74d277664" />
+
+<img width="1361" height="632" alt="image" src="https://github.com/user-attachments/assets/70436113-4406-47d4-9ee4-3ce4f8dea7a5" />
+
+<img width="1346" height="560" alt="image" src="https://github.com/user-attachments/assets/0be998e3-94d5-447e-874c-d1de6ab0fdca" />
