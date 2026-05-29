@@ -17,6 +17,7 @@ This section covers the implementation of a decoupled microservices architecture
 └──────────────────────┘        └──────────────────────┘        └──────────────────────┘
 
 ---
+```  
 
 ## 5.1 Environment Setup & Core Dependencies
 
