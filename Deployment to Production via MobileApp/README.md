@@ -1,4 +1,4 @@
-# 📈 AlphaAgent — Multi-Agent Trading Web Application
+# 📈 AlphaAgent — Multi-Agent Trading Mobile Application
 
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io/)
